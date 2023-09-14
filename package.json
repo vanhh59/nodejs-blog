@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanhh59/nodejs-blog.git"
+  },
+  "keywords": [
+    "vanhh59",
+    "dev",
+    "blog",
+    "nodejs"
+  ],
+  "author": "vanhh59",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanhh59/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/vanhh59/nodejs-blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
